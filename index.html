@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Mayank Kumar | Portfolio</title>
-
   <style>
     *{box-sizing:border-box}
     body{margin:0;font-family:Arial;background:#f6f8ff}
@@ -21,10 +20,9 @@
     .fade{animation:fade 1.2s ease}
     @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
     form input,form textarea{width:100%;padding:10px;margin:6px 0;border-radius:6px;border:1px solid #ccc}
-    form button{background:#4f6cf6;color:#fff}
+    form button{background:#4f6cf6;color:#fff;padding:10px 15px;border:none;border-radius:6px;cursor:pointer}
   </style>
 </head>
-
 <body>
 
 <header class="fade">
@@ -40,18 +38,14 @@
 
 <section id="about" class="fade">
   <h2>About Me</h2>
-
   <div class="profile">
     <img src="myphoto.jpg" alt="Mayank Photo">
-
-
     <p>
       I'm a CSE student who enjoys coding, creating websites and exploring new
       technologies. My goal is to become a skilled software engineer and build
       useful digital products.
     </p>
   </div>
-
   <button class="btn resume-btn" onclick="window.location='resume.pdf'">
     Download Resume
   </button>
@@ -78,9 +72,7 @@
 
 <section id="contact" class="fade">
   <h2>Contact</h2>
-
   <p>Email: <strong>mayankkr00126@gmail.com</strong></p>
-
   <div class="social">
     <a href="https://youtube.com/@mayank.vlogs13?si=3GHD6VZazkqFPhKi" target="_blank">YouTube</a>
     <a href="https://www.instagram.com/mayankkr_001__?igsh=MXFpdDN2YjRrNzAybw%3D%3D" target="_blank">Instagram</a>
@@ -88,19 +80,15 @@
   </div>
 
   <h3>Send me a message</h3>
-
   <form action="mailto:mayankkr00126@gmail.com" method="post" enctype="text/plain">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
-    <button class="btn" type="submit">Send</button>
+    <button type="submit">Send</button>
   </form>
-
 </section>
 
 <footer>© 2026 — Made with ❤️ by Mayank Kumar</footer>
 
 </body>
 </html>
-
-
